@@ -42,14 +42,15 @@ img {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: wheat;
 }
 
 .counter-div {
   width: 40rem;
   border: 1px solid var(--grey);
   padding: 1rem;
-  background-color: var(--light-blue);
-  color: var(--white);
+  background-color: black;
+  color: white;
   text-align: center;
   border-radius: 5px;
 }
@@ -75,12 +76,14 @@ img {
 }
 
 button.subtract {
-  background-color: orangered;
+  background-color: yellow;
+  color: black;
 }
 button.reset {
-  background-color: var(--white);
-  color: var(--black);
+  background-color: white;
+  color: black;
 }
 button.add {
   background-color: green;
+  color: white;
 }
